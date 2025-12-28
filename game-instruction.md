@@ -28,4 +28,5 @@ version 1.0
 
 version 2.0
 - determine the winner based on win two out of three rounds
+- show the statistics of 
 - add option to allow two players to play against each other
