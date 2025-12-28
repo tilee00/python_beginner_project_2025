@@ -27,4 +27,5 @@ version 1.0
 - prompt message to ask whether to continue the game (y/n). 'y' means continue, 'n' means end the game
 
 version 2.0
-- 
+- determine the winner based on win two out of three rounds
+- add option to allow two players to play against each other
