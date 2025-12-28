@@ -8,4 +8,9 @@ version 2.0
 - user can specify how many dice they want to roll.
 - keep track of how many times the user has rolle dthe dice during the session.
 
-# 
+# Number Guessing
+
+version 1.0
+- Guess a number between 1 and 100
+- return Too high or Too low when the answer is incorrect
+
