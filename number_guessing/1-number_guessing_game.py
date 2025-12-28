@@ -1,5 +1,7 @@
 import random
 
+# version 1.0
+
 random_num = random.randint(1,100)
 
 while True:

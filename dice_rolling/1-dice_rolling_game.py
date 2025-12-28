@@ -1,5 +1,7 @@
 import random
 
+# version 1.0
+
 def getUserInput():
     return input("Roll the dice? (y/n): ")
 
