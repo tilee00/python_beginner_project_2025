@@ -27,3 +27,11 @@ version 1.0
 ![version 1.0 of rock paper scissor result](img/1-rock_paper_scissor.png)
 
 version 2.0
+
+![version 2.0 of rock paper scissor result](img/2-rock_paper_scissor.png)
+
+## Game 4 - QR Code Generator
+
+version 1.0
+
+

@@ -28,5 +28,5 @@ version 1.0
 
 version 2.0
 - determine the winner based on win two out of three rounds
-- show the statistics of 
+- show the statistics of how many times the player wins, loses, or ties at the end
 - add option to allow two players to play against each other
