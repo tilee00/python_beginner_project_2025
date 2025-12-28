@@ -1,7 +1,7 @@
 # Game 1 - Dice Rolling Game
 
 version 1.0
-- only accept case insensitive y or n, show error message when invalid choice
+- only accept case insensitive y or n, show error message when invalid input
 - when user select n, then end the program with ending message
 
 version 2.0
@@ -20,6 +20,11 @@ version 2.0
 - limits the number of guesses user can make, if runs out of attempts, then game should end, answer will be revealed
 - keep track of the fewest attempt took to guess the correct answer, and show "best score" at the end of each game
 
-# Game 3 - 
+# Game 3 - Rock Paper Scissor
 
 version 1.0
+- only accept case insensitive (r/p/s), show error message when invalid input
+- prompt message to ask whether to continue the game (y/n). 'y' means continue, 'n' means end the game
+
+version 2.0
+- 
