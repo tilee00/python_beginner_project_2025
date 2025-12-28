@@ -34,4 +34,14 @@ version 2.0
 
 version 1.0
 
+![version 1.0 of qr code generator result](img/1-qr_code_generator.png)
+
+version 2.0
+
+![version 2.0 of qr code generator result](img/2-qr_code_generator.png)
+
+## Game 5 - 
+
+version 1.0
+
 

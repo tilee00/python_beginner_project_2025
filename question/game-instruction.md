@@ -30,3 +30,17 @@ version 2.0
 - determine the winner based on win two out of three rounds
 - show the statistics of how many times the player wins, loses, or ties at the end
 - add option to allow two players to play against each other
+
+# Game 4 - QR Code Generator
+
+version 1.0
+- generate QR code based on user input (text/URL)
+
+version 2.0
+- allow user to choose QR code color
+- allow user to generate multiple QR codes at once by providing a list of URLs or texts
+
+# Game 5 - Currency Converter
+
+version 1.0
+- user enter amount and select 1 source and 1 target currency each from 3 options
