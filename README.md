@@ -40,8 +40,10 @@ version 2.0
 
 ![version 2.0 of qr code generator result](img/2-qr_code_generator.png)
 
-## Game 5 - 
+## Game 5 - Currency Converter
 
 version 1.0
+
+![version 1.0 of currency converter result](img/1-currency_converter.png)
 
 
