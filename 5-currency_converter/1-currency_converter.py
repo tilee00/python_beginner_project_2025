@@ -35,6 +35,9 @@ def validate_input_amount():
     while True:
         try:
             input_amount = float(input("Enter the amount: "))
+            # IMPROVEMENT: Shoud prevent user enter negative value
+            # if input_amount <= 0:
+            #     raise ValueError()
             return input_amount
         except:
             print("Please enter a valid amount")
@@ -54,7 +57,7 @@ def choose_type(type, source):
 def convert_currency(input_amount, source, target):
     exchange_rate = type_list[source][target]
     currency = float(input_amount * exchange_rate)
-    return currency
+    return round(currency,2)
 
 def start_convert():
     input_amount = validate_input_amount()

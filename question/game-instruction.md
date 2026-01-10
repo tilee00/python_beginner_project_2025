@@ -44,3 +44,8 @@ version 2.0
 
 version 1.0
 - user enter amount and select 1 source and 1 target currency each from 3 options
+
+version 2.0
+- can choose more than one target currency
+- add more currency to choose
+- display the history of the most recent conversions made at the end of program
