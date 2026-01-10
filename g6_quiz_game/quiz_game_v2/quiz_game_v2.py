@@ -1,4 +1,4 @@
-from 2-quiz_game_constants import OPERATION_EDIT_QUIZ
+from quiz_game_constants_v2 import *
 
 def print_operation():
     print("""
