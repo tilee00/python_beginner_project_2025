@@ -50,4 +50,13 @@ version 2.0
 
 ![version 2.0 of currency converter result](img/2-currency_converter.png)
 
+## Game 6 - Quiz Game
+
+version 1.0
+
+![version 1.0 of quiz game result](img/1-quiz_game.png)
+
+version 2.0
+
+
 

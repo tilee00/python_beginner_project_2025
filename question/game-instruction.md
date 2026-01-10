@@ -49,3 +49,14 @@ version 2.0
 - can choose more than one target currency
 - add more currency to choose
 - display the history of the most recent conversions made at the end of program
+
+# Game 6 - Quiz Game
+
+version 1.0
+- allow player to answer multiple-choice questions
+- display the final score at the end
+
+version 2.0
+- allow player to choose different categories of questions such as math, history, or science
+- implement different difficulty levels by varying the complexity of the questions
+- modify the game to import questions from csv or json file
