@@ -46,4 +46,8 @@ version 1.0
 
 ![version 1.0 of currency converter result](img/1-currency_converter.png)
 
+version 2.0
+
+![version 2.0 of currency converter result](img/2-currency_converter.png)
+
 
