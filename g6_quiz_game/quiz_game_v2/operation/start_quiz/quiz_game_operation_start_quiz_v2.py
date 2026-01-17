@@ -1,57 +1,49 @@
-from data.quiz_game_constants_v2 import *
-import sys
+from data.quiz_game_constants_v2 import QUIZ_CATEGORIES, DIFFICULTY_LEVEL, option_list, math_question, tech_question, science_question
 
 def print_start_quiz():
     while True:
         try:
-            return int(input("""
-Please choose the quiz categories that you want (1-3):
-1) Math
-2) Technology
-3) Sciece
-4) Back to main menu
-Enter your choice: """))
+            return int(input(QUIZ_CATEGORIES))
         except:
             print("Invalid option. Try a number between 1 and 4")
 
 def print_quiz_difficulty():
     while True:
         try:
-            return int(input("""
-Please choose the quiz difficulty level that you want (1-3):
-1) Easy
-2) Medium
-3) Hard
-4) Back to quiz categories
-Enter your choice: """))
+            return int(input(DIFFICULTY_LEVEL))
         except:
             print("Invalid option. Try a number between 1 and 4")
+            
+def print_question(list, difficulty):
+    for question in list[difficulty]:
+        print(question)
+        math_answer = validate_answer()
+        evaluate_answer(math_answer, list[difficulty][question])
     
-def math_quiz(difficulty):
-    match difficulty:
-        case 1:
-            easy_math_quiz()
-        case 2:
-            medium_math_quiz()
-        case 3:
-            hard_math_quiz()
-        case 4:
-            start_quiz_game()
+def validate_answer():
+    while True:    
+        user_input = input("Enter your choice: ").upper()
+        if user_input in option_list:
+            return user_input
+        print("Invalid option. Please enter a, b or c.")
+        
+def evaluate_answer(user_answer, standard_answer):
+    if (user_answer == standard_answer):
+        print("Correct answer!")
+    else:
+        print("Wrong answer!")
     
-def easy_math_quiz():
-    print("operation easy math")
+def math_quiz():
+    difficulty = print_quiz_difficulty()
+    print_question(math_question, difficulty)
     
-def medium_math_quiz():
-    print("operation medium_math_quiz")
+def technology_quiz():
+    difficulty = print_quiz_difficulty()
+    print_question(tech_question, difficulty)
     
-def hard_math_quiz():
-    print("operation hard_math_quiz")
-    
-def technology_quiz(difficulty):
-    print("operation tech")
-    
-def science_quiz(difficulty):
-    print("operation science")
+def science_quiz():
+    difficulty = print_quiz_difficulty()
+    print_question(science_question, difficulty)
     
 def operation_back_to_main():
     from operation.quiz_game_operation_v2 import main_operation
@@ -61,14 +53,11 @@ def start_quiz_game():
     user_option = print_start_quiz()
     match user_option:
         case 1:
-            difficulty = print_quiz_difficulty()
-            math_quiz(difficulty)
+            math_quiz()
         case 2:
-            difficulty = print_quiz_difficulty()
-            technology_quiz(difficulty)
+            technology_quiz()
         case 3:
-            difficulty = print_quiz_difficulty()
-            science_quiz(difficulty)
+            science_quiz()
         case 4:
             operation_back_to_main()
         case _:
