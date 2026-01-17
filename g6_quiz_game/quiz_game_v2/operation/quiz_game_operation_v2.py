@@ -1,22 +1,24 @@
-from g6_quiz_game.quiz_game_v2.data.quiz_game_constants_v2 import *
+from data.quiz_game_constants_v2 import *
+from operation.start_quiz.quiz_game_operation_start_quiz_v2 import start_quiz_game
 import sys
 
 def print_operation():
     while True:
         try:
             return int(input("""
-                Please choose the operation that you want (1-5):
-                1) Start quiz game
-                2) Import quiz questions
-                3) View all quiz questions
-                4) Edit quiz question
-                5) Exit
-            """))
+===================MAIN MENU===================
+Please choose the operation that you want (1-5):
+1) Start quiz game
+2) Import quiz questions
+3) View all quiz questions
+4) Edit quiz question
+5) Exit
+Enter your choice: """))
         except:
             print("Invalid option. Try a number between 1 and 5")
 
 def operation_start_quiz():
-    print("operation 1")
+    start_quiz_game()
     
 def operation_import_quiz():
     print("operation 2")
@@ -32,7 +34,7 @@ def operation_exit():
     print(f"Thanks for playing!")
     sys.exit()
 
-def enter_operation():
+def main_operation():
     user_option = print_operation()
     match user_option:
         case 1:
@@ -48,5 +50,5 @@ def enter_operation():
         case _:
             print("Invalid option. Try a number between 1 and 5")
 
-if __name__ == "__quiz_game_main_v2__":
-    enter_operation()
+
+main_operation()

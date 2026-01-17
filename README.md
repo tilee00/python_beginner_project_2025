@@ -56,7 +56,8 @@ version 1.0
 
 ![version 1.0 of quiz game result](img/1-quiz_game.png)
 
-version 2.0
+version 2.0 (1-5)
+1. backward to previous operation
 
-
+![version 1.0 of quiz game backward action](img/2-quiz_game_backward_action.png)
 

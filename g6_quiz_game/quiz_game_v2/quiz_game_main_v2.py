@@ -1,6 +1,6 @@
-from g6_quiz_game.quiz_game_v2.operation.quiz_game_operation_v2 import enter_operation
+from operation.quiz_game_operation_v2 import main_operation
     
 def main():
-    enter_operation()
+    main_operation()
 
 main()
