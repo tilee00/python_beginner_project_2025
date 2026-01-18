@@ -1,0 +1,44 @@
+{
+    "math_question": {
+        "1": {
+            "1 - What is the result of 3+5?\na) 8\nb) 7\nc) 9": "A",
+            "2 - What is the result of 1+9?\na) 9\nb) 10\nc) 11": "B"
+        },
+        "2": {
+            "1 - What is the result of 100/4*12?\na) 200\nb) 25\nc) 300": "C",
+            "2 - What is the square root of 256?\na) 16\nb) 8\nc) 18": "A"
+        },
+        "3": {
+            "1 - if 3x² + 5x = 24x + 14, What is the value of x?\na) 7\nb) 6\nc) 8": "A",
+            "2 - if 4/a = a/16, What is the value of a?\na) 2\nb) 4\nc) 8": "C"
+        }
+    },
+    "tech_question": {
+        "1": {
+            "1 - 'OS' computer abbreviation usually means?\na) Open Software\nb) Operating System\nc) Optical Sensor": "B",
+            "2 - '.MOV' extension refers usually to what kind of file?\na) Audio file\nb) Animation/movie file\nc) MS Office document": "B"
+        },
+        "2": {
+            "1 - How many bits is a byte?\na) 16\nb) 8\nc) 4": "B",
+            "2 - What do you call a computer on a network that requests files from another computer?\na) A client\nb) A host\nc) A web server": "A"
+        },
+        "3": {
+            "1 - Which was an early mainframe computer?\na) ENIAC\nb) BRAINIA\nc) UNIC": "A",
+            "2 - Which of the following operating systems is produced by IBM?\na) UNIX\nb) Windows\nc) OS-2": "C"
+        }
+    },
+    "science_question": {
+        "1": {
+            "1 - Which planet is closest to the sun?\na) Moon\nb) Mars\nc) Mercury": "C",
+            "2 - Pollination is best defined as\na) transfer of pollen from anther to stigma\nb) germination of pollen grains\nc) visiting flowers by insects": "A"
+        },
+        "2": {
+            "1 - Movement of cell against concentration gradient is called\na) passive transport\nb) active transport\nc) osmosis": "B",
+            "2 - What is the smallest unit of matter?\na) atom\nb) protons\nc) electrons": "A"
+        },
+        "3": {
+            "1 - Plants synthesis protein from\na) starch\nb) sugar\nc) amino acids": "C",
+            "2 - One of the following is not a function of bones.\na) Secretion of hormones for calcium regulation in blood and bones\nb) Production of blood corpuscles\nc) Place for muscle attachment": "A"
+        }
+    }
+}
